@@ -2,8 +2,7 @@
 # coding: utf-8
 
 from tweeter_tweets import searchForTweets
-from tweeter_data_manip import getTopTweet, postToSlack
+from tweeter_data_manip import readInCsv
 
 searchForTweets()
-getTopTweet()
-postToSlack()
+readInCsv()
