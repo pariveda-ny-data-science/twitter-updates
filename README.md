@@ -1,6 +1,11 @@
 # twitter-bot
 twitter bot that sends slack updates with newest info on whatever hashtags and keywords you choose to search for
 
+# Environment Management
+This project was set up using Conda
+If you have conda installed, run the following command to create the environment with all the neccessary dependencies
+```conda env create -f environment.yml```
+
 # Twitter API
 Create a twitter account if you dont have one and create a developer account. Add the provided keys below in the Database.ini file
 Resource:
@@ -13,8 +18,8 @@ Resource:
 https://github.com/slackapi/python-slackclient 
 https://api.slack.com/custom-integrations/legacy-tokens 
 
-# Database.ini
-create a file called Database.ini and add the following to it
+# Property File Management
+create a file called properties.ini and add the following to it
 ```
 [postgresql]
 host=fill in
