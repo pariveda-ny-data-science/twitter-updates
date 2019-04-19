@@ -44,7 +44,7 @@ def postToSlack(top_tweet_url):
       icon_url ="https://thumbs.dreamstime.com/z/news-cartoon-12412446.jpg",
       channel="CHZ3VUTAQ",
       as_user = False,
-      text="Here are todays updates on {}:".format(top_tweet_url[0])
+      text="Here is todays update on {}:".format(top_tweet_url[0])
     )
 
     sc.api_call(
