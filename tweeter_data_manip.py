@@ -42,14 +42,14 @@ def postToSlack(top_tweet_url):
       "chat.postMessage",
       username = "Twitter Update",
       icon_url ="https://thumbs.dreamstime.com/z/news-cartoon-12412446.jpg",
-      channel="GHWQ9P8GM",
+      channel="CHZ3VUTAQ",
       as_user = False,
       text="Here are todays updates on {}:".format(top_tweet_url[0])
     )
 
     sc.api_call(
       "chat.postMessage",
-      channel="GHWQ9P8GM",
+      channel="CHZ3VUTAQ",
       username = "Twitter Update",
       icon_url ='https://thumbs.dreamstime.com/z/news-cartoon-12412446.jpg',
       as_user = False,
